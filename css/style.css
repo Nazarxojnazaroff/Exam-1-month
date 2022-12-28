@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url(../fonds/DMSans-Regular.ttf) format(truetype);
+}
+.general {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #191919;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  color: #fff;
+}
+.header li {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+.card1 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+.card1-content {
+  width: 526px;
+}
+.card1-content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+.card1-content2 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+.card1-content2 p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+.card1-content2 h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+.card1-content2-img {
+  position: relative;
+  top: 20px;
+  right: 390px;
+}
+.card1-content-icons {
+  margin-top: 200px;
+  margin-left: 12px;
+}
+.card1-content-icons p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.card1-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.card1-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 70px;
+}
+.card1-end p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+.card1-end-button button {
+  width: 178px;
+  height: 51px;
+  background-color: #118da8;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+.card2 {
+  padding: 0 70px;
+}
+.card2-chaild {
+  display: flex;
+  justify-content: center;
+  width: 1300px;
+  height: 545px;
+  background-color: #000000;
+  border-radius: 32px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.card2-content {
+  width: 730px;
+  margin: 48px 0 48px 53px;
+}
+.card2-button1 {
+  width: 73px;
+  height: 27px;
+  background-color: #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card2-p1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #118da8;
+  margin-top: 45px;
+  margin-bottom: 18px;
+  margin-left: 4px;
+}
+.card2-button1-2 {
+  width: 136px;
+  height: 27px;
+  background-color: #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.card2-content h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+}
+.card2-chaild img {
+  width: 380px;
+  height: 450px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.card2-p2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+.card2-button2 {
+  width: 208px;
+  height: 51px;
+  background-color: #118da8;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.card3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.card3-content {
+  width: 556px;
+}
+.card3-content button {
+  width: 112px;
+  height: 112px;
+  background: #118da8;
+  border-radius: 400px;
+  margin-top: -100px;
+  margin-bottom: 45px;
+}
+.card3-content img {
+  position: relative;
+  right: 95px;
+  bottom: 35px;
+}
+.card3-p1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+  margin-bottom: 25px;
+}
+.card3-content h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+.card3-p2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 35px;
+}
+.card3-p3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.card4 {
+  width: 1300px;
+  height: 387px;
+  background: #000000;
+  border-radius: 32px;
+  margin-top: 200px;
+}
+.card4-chaild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+.card4-content {
+  width: 430px;
+}
+.card4-content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+}
+.card4-content h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+.card4-button {
+  width: 533px;
+}
+.card4-button input {
+  width: 522px;
+  height: 82px;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 19px;
+}
+.card4-button button {
+  width: 82px;
+  height: 48px;
+  background: #118da8;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 29px;
+  margin-top: 20px;
+}
+.input1 {
+  margin-bottom: 20px;
+}
+.card4-content img {
+  position: relative;
+  top: 80px;
+  right: 100px;
+}
+.card5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  gap: 16px;
+}
+.card5-chaild {
+  width: 423px;
+  height: 321px;
+  background: #000000;
+  border-radius: 32px;
+  padding: 54px 60px 130px 50px;
+}
+.card5-chaild h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  margin: 21px 0;
+}
+.card5-chaild p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.card-end {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  padding-left: 40px;
+  margin-top: 200px;
+}
+.end-icons1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 26px;
+  margin-right: 100px;
+}
+.cardend-ul {
+  display: flex;
+  gap: 146px;
+  color: #ffffff;
+}
+.card-end li {
+  list-style: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+.end-icons2 {
+  position: relative;
+  right: 240px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #044a5a;
+  color: #000000;
+  transition: all 0.2s ease-in;
+  box-shadow: 2px 4px 4px #118da8;
+  border: none;
+}
+input:hover {
+  background-color: #133a43;
+  transition: all 0.3s ease-in;
+  border: 3px solid #118da8;
+}
+.header li:hover {
+  background-color: #014e5f;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 1px 5px 5px #1bcaf1;
+  font-size: 20px;
+}
+.card5-chaild:hover {
+  background-color: #043d4a;
+  box-shadow: 2px 6px 6px #2890a8;
+  transition: all 0.4s;
+}
