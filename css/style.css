@@ -8,8 +8,12 @@
   font-family: "DM Sans";
   src: url(../fonds/DMSans-Regular.ttf) format(truetype);
 }
+body {
+  background-color: #191919;
+}
+
 .general {
-  width: 100%;
+  width: 1500px;
   margin: 0 auto;
   background-color: #191919;
 }
